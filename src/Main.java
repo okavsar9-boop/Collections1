@@ -8,7 +8,7 @@ public class Main {
         ArrayList<String> employees = new ArrayList<>();
 
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("employees.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("src/employees.txt"));
             String line;
 
             while ((line = reader.readLine()) != null) {
